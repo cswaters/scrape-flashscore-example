@@ -9,3 +9,4 @@ Using RSelenium to scrape final score results from Flashscore
 - [ ] add by quarter scores WNBA
 - [ ] mark games that went to OT WNBA
 - [ ] append point spreads and totals
+- [ ] drop ' W' from end of team names WNBA

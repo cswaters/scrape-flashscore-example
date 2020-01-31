@@ -51,9 +51,7 @@ clean_scores <- scores %>%
            paste0(seas) %>% lubridate::dmy(),
          ptsh = as.integer(ptsh),
          ptsv = as.integer(ptsv),
-         seas = as.integer(seas),
-         h = str_remove_all(h,' W'),
-         v = str_remove_all(v,' W')
+         seas = as.integer(seas)
          )
 
 clean_scores %>% 
